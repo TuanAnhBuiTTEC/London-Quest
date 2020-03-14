@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{f8a1150c-0680-402f-8676-a2245b467c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Inherited">
+      <UniqueIdentifier>{a647ee9b-7fc3-45ec-afb6-683ad612a833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\Inherited\Sub-Inherit">
+      <UniqueIdentifier>{bd853929-9e30-43aa-869b-dc12aba99f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIs">
+      <UniqueIdentifier>{790d49d6-d63d-402f-8d74-69bb806eee05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BackGrounds">
+      <UniqueIdentifier>{5e37d9f4-69d5-48fc-aedb-b60f11e70720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{6c55485c-6ffa-40dc-b2e4-0687f2c9457b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{960c5386-ce24-4963-b7bd-5dfe5d74f4e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="London Quest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>States\Inherited</Filter>
+    </ClCompile>
+    <ClCompile Include="States\States.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIs\GUI.cpp">
+      <Filter>GUIs</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Sprites.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>States\Inherited</Filter>
+    </ClInclude>
+    <ClInclude Include="States\States.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIs\GUI.h">
+      <Filter>GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Sprites.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="London Quest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
